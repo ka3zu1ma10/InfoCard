@@ -1,0 +1,35 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+   margin: 6rem auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+h1{
+  text-align: center;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-body{
+  margin: 0 auto;
+}
+
+.follow-list{
+  font-size: 4vw;
+  font-weight: 400;
+  margin-top:  4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.follow-list li{
+  margin: 0 2rem;
+  text-align: center;
+}
