@@ -4,7 +4,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/back-ground.JPG");
+  /* background-image: url("../img/back-ground.JPG"); */
   background-size:100% auto;
  }
 
@@ -23,14 +23,49 @@ ul{
 }
 
 .follow-list{
-  font-size: 4vw;
+  font-size: 1.6rem;
   font-weight: 400;
-  margin-top:  4rem;
-  display: flex;
+  margin-top:  2vw;
   justify-content: center;
+  color: White;
 }
 
 .follow-list li{
-  margin: 0 2rem;
+  padding: 1rem;
+  margin: 0 3vw;
   text-align: center;
+  width: 16rem;
+  height: 6rem;
+}
+
+.follow-list a{
+  text-decoration: none;
+  color: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-list p{
+  margin-right: 0;
+  margin-left: auto;
+}
+.folloe-list-img{
+  width: 4rem;
+  height: 4rem;
+}
+
+.follow-twitter{
+  background-color:#00acee;
+}
+.follow-facebook{
+  background-color:	#3b5998;
+}
+.facebook-icon{
+  width: 2.6rem;
+}
+@media all and (min-width: 981px) {
+ .follow-list {
+   display: flex;
+ }
 }
