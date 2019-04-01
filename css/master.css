@@ -70,7 +70,6 @@ ul{
 }
 .twitter-icon{
   width: 4rem;
-  height: 4rem;
 }
 .facebook-icon{
   width: 2.6rem;
@@ -78,21 +77,28 @@ ul{
 
 @media all and (max-width: 981px){
   .follow-list{
-    font-size: 2.6vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
   }
 
   .follow-list li{
     padding: 1.6vw;
     margin: 0 3vw;
     text-align: center;
-    width: 25vw;
-    height: 10vw;
+    width: 45vw;
+    height: auto;
+    margin-bottom:4vw;
   }
   .twitter-icon{
-    width: 6vw;
-    height: 6vw;
+    width: 12vw;
   }
   .facebook-icon{
-    width: 4vw;
+    width: 7vw;
+    margin: 2.5vw;
+
   }
 }
